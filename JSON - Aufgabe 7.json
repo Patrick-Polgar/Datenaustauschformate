@@ -1,0 +1,71 @@
+{
+	"$schema":	"https://json-schema.org/draft/2020-12/schema",
+	"titel":	"Bestellungen",
+	"type":		"array",
+	"items":	{
+		"$ref": "#/definitions/Kunde",
+		"$ref": "#/definitions/Artikelliste"
+	},
+	"definitions": {
+		"Kunde":
+		{
+			"type":	"object",
+			"title": "Kunde",
+			"required":	["vorname", "nachname", "strasse", "hausnr", "plz", "ort"],
+			"properties":
+			{
+				"vorname":
+				{
+					"type": "string"
+				},
+				"nachname":
+				{
+					"type": "string"
+				},
+				"strasse":
+				{
+					"type": "string"
+				},
+				"hausnr":
+				{
+					"type": "string"
+				},
+				"plz":
+				{
+					"type": "string"
+				},
+				"ort":
+				{
+					"type": "string"
+				}
+			}
+		},
+		"Artikel":
+		{
+			"type":	"object",
+			"title": "Artikel",
+			"required":	["artikelnr", "menge"],
+			"properties":
+			{
+				"artikelnr":
+				{
+					"type": "string"
+				},
+				"menge":
+				{
+					"type": "number"
+				}
+			}
+		},
+		"Artikelliste":
+		{
+			"type": "array",
+			"title": "Artikelliste",
+			"items": {
+				"$ref": "#/definitions/Artikel"
+			}
+		}
+	}
+
+
+}

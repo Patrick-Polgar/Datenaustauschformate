@@ -1,0 +1,20 @@
+[
+	{
+		"vorname":	"Max",
+		"nachname":	"Mustermann",
+		"strasse":	"Musterstr.",
+		"hausnr":	"1",
+		"plz":		"12345",
+		"ort":		"Musterhausen"
+	},
+	[
+		{
+			"artikelnr":	"4711-42",
+			"menge":		5
+		},
+		{
+			"artikelnr":	"123456",
+			"menge":		2
+		}
+	]
+]

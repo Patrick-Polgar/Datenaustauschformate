@@ -1,0 +1,20 @@
+[
+	{
+		"artikelnr":"4711-42",
+		"name":"Köllsche Galaxie",
+		"menge":2,
+		"preis":4711.42
+	},
+	{
+		"artikelnr":"123456",
+		"name":"Zahlensalat",
+		"menge":20,
+		"preis":21
+	},
+	{
+		"artikelnr":"987654",
+		"name":"Noch mehr Zahlen",
+		"menge":-2,
+		"preis":10.1
+	}
+]
