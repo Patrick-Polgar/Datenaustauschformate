@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artikelliste>
+	<artikel>
+		<artikelnr>4711-42</artikelnr>
+		<name>Köllsche Galaxis</name>
+		<menge>2</menge>
+		<preis>4711.42</preis>
+	</artikel>
+	<artikel>
+		<artikelnr>123456</artikelnr>
+		<name>Zahlensalat</name>
+		<menge>20</menge>
+		<preis>21</preis>
+	</artikel>
+	<artikel>
+		<artikelnr>987654</artikelnr>
+		<name>Noch mehr Zahlen</name>
+		<menge>-2</menge>
+		<preis>10.1</preis>
+	</artikel>
+</artikelliste>

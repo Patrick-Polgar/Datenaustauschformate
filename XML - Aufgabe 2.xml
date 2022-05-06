@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE artikel [
+	<!ELEMENT artikel (artikelnr, name, menge, preis)>
+	<!ELEMENT artikelnr (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT menge (#PCDATA)>
+	<!ELEMENT preis (#PCDATA)>
+]>
+<artikel>
+	<artikelnr>4711-42</artikelnr>
+	<name>Köllsche Galaxis</name>
+	<menge>2</menge>
+	<preis>4711.42</preis>
+</artikel>

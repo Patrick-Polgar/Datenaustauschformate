@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestellung>
+	<kunde>
+		<vorname>Max</vorname>
+		<nachname>Mustermann</nachname>
+		<strasse>Musterstr.</strasse>
+		<hausnr>1</hausnr>
+		<plz>12345</plz>
+		<ort>Musterhausen</ort>
+	</kunde>
+	<artikelliste>
+		<artikel>
+			<artikelnr>123456</artikelnr>
+			<menge>5</menge>
+		</artikel>
+		<artikel>
+			<artikelnr>4711-42</artikelnr>
+			<menge>2</menge>
+		</artikel>
+	</artikelliste>
+</bestellung>

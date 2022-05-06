@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="artikel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="artikelnr" type="xs:string"/>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="menge" type="xs:decimal"/>
+				<xs:element name="preis" type="xs:decimal"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
